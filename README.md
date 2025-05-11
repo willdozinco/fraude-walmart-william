@@ -53,16 +53,6 @@ Este projeto analisa ocorrências de fraudes no sistema de delivery do e-commerc
    - Correlação entre região, entregador e horário
 
 
-## 📁 Estrutura do Projeto
-📁 data/ → dados brutos e tratados (.csv, .xlsx)
-📁 sql_queries/ → análises SQL feitas no Data.World
-📁 notebooks/ → notebooks Python (Jupyter) com análises e modelos
-📁 src/ → scripts auxiliares (ETL, ML, funções)
-📁 dashboards/ → prints e/ou link do dashboard no Power BI
-📁 reports/ → documentos finais (Word, PPT)
-📄 README.md → descrição do projeto
-
-
 📊 Análises Realizadas (via SQL)
 
 1. **Métricas Gerais**
