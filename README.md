@@ -52,7 +52,44 @@ Este projeto analisa ocorrências de fraudes no sistema de delivery do e-commerc
 6. ✅ **Detecção de Padrões de Fraude**  
    - Correlação entre região, entregador e horário
 
----
 
 ## 📁 Estrutura do Projeto
+📁 data/ → dados brutos e tratados (.csv, .xlsx)
+📁 sql_queries/ → análises SQL feitas no Data.World
+📁 notebooks/ → notebooks Python (Jupyter) com análises e modelos
+📁 src/ → scripts auxiliares (ETL, ML, funções)
+📁 dashboards/ → prints e/ou link do dashboard no Power BI
+📁 reports/ → documentos finais (Word, PPT)
+📄 README.md → descrição do projeto
 
+
+📊 Análises Realizadas (via SQL)
+
+1. **Métricas Gerais**
+   - Total de pedidos, valor total e prejuízo estimado.
+2. **Por Região**
+   - Volume de pedidos, itens faltantes e prejuízo.
+3. **Por Entregador**
+   - Comparativo de performance e detecção de comportamento suspeito.
+4. **Por Produto**
+   - Frequência de faltas e impacto financeiro.
+5. **Temporal**
+   - Análise por mês e horário.
+6. **Padrões de Fraude**
+   - Correlação entre regiões, turnos e entregadores.
+
+As queries estão salvas na pasta `/sql_queries`.
+
+
+🚀 Tecnologias Utilizadas
+
+- **Excel & Power BI** – análise e visualizações
+- **Python (Pandas, Scikit-learn)** – modelagem e predição
+- **SQL (Data.World)** – exploração dos dados
+- **Git & GitHub** – versionamento e entrega final
+
+
+👨‍💻 Autor
+
+William Rodrigues  
+Projeto Curso de Data Science – 2025
