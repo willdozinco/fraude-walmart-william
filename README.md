@@ -57,13 +57,27 @@ Este projeto analisa ocorrências de fraudes no sistema de delivery do e-commerc
 - **Avaliação dos Modelos**: Aplicar avaliação detalhada dos modelos, incluindo validação cruzada, métricas de desempenho e análise de impacto. ⚖️
 - **Deploy e Validação (RCT)**: Implementar testes de validação experimental (Randomized Controlled Trial) para avaliar a eficácia do modelo em um ambiente real. 🚀
 
-## Estrutura do Repositório 📂
+## 📁 Estrutura do Projeto
 
+| Pasta / Arquivo     | Descrição |
+|---------------------|-----------|
+| `/data/`            | Arquivos de dados brutos e tratados (Excel e CSV) |
+| `/notebooks/`       | Notebooks do Jupyter com análises e modelagem |
+| `/src/`             | Scripts de pré-processamento, modelagem e utilitários |
+| `/reports/`         | Relatórios gerados com insights e tabelas |
+| `README.md`         | Documentação do projeto |
+| `requirements.txt`  | Bibliotecas necessárias |
+| `.gitignore`        | Arquivos e pastas ignoradas pelo Git |
+## 📊 Etapas Realizadas
+
+✅ Organização e limpeza dos dados  
+✅ Cálculo de métricas de risco e fraude por região, turno, entregador  
+✅ Clusterização para detectar padrões anômalos  
+✅ Modelo de Machine Learning para previsão de risco  
+✅ Análise de outliers e casos extremos  
+✅ Geração de dashboards no Power BI para stakeholders
 🛒 Análise de Fraudes e Riscos no Delivery Walmart
 
-markdown
-Copiar
-Editar
 
 ## Tecnologias Utilizadas ⚙️
 - **Python**: Pandas, Scikit-learn, Imbalanced-learn 🐍
