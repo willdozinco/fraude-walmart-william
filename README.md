@@ -75,8 +75,7 @@ Este projeto analisa ocorrências de fraudes no sistema de delivery do e-commerc
 ✅ Clusterização para detectar padrões anômalos  
 ✅ Modelo de Machine Learning para previsão de risco  
 ✅ Análise de outliers e casos extremos  
-✅ Geração de dashboards no Power BI para stakeholders
-🛒 Análise de Fraudes e Riscos no Delivery Walmart
+✅ Geração de dashboards no Power BI 
 
 
 ## Tecnologias Utilizadas ⚙️
