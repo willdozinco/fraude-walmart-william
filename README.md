@@ -60,30 +60,6 @@ Este projeto analisa ocorrências de fraudes no sistema de delivery do e-commerc
 ## Estrutura do Repositório 📂
 
 🛒 Análise de Fraudes e Riscos no Delivery Walmart
-│
-├── data/
-│ ├── Base_Painel_U_2.xlsx # Base de dados original
-│ ├── Base_Painel_U_2_com_previsoes.xlsx # Base com previsões do modelo
-│ ├── Base_Painel_U_2_com_clusters.xlsx # Base com clusters de risco
-│ └── Base_Painel_U_2_com_outliers.xlsx # Base com outliers detectados
-│
-├── notebooks/
-│ ├── 01_Exploracao_Geral.ipynb # Análise exploratória e visualizações
-│ ├── 02_Modelo_Classe.ipynb # Modelo de classificação (fraude)
-│ ├── 03_Clustering.ipynb # Segmentação de risco (KMeans)
-│ ├── 04_Outliers.ipynb # Detecção de outliers com Isolation Forest
-│ └── README.md # Descrição do projeto e notebooks
-│
-├── sql_queries/
-│ ├── query_regiao.sql # SQL para análise por região
-│ ├── query_entregador.sql # SQL para análise por entregador
-│ └── query_produto.sql # SQL para análise por produto
-│
-├── models/
-│ ├── modelo_final_fraude.pkl # Modelo treinado para previsão de fraude
-│ └── README.md # Explicação sobre os modelos treinados
-│
-└── README.md # Descrição geral do projeto
 
 markdown
 Copiar
